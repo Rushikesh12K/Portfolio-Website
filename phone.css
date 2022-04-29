@@ -1,0 +1,214 @@
+@media screen and (max-width: 770px){
+
+
+nav{
+    background-color: rgba(26, 34, 48);
+}
+nav .fa{
+    position: absolute;
+    right: 37px;
+    display: block;
+    font-size: 28px;
+    color: rgb(90,207,155);
+}
+nav .fa-times{
+    display: none;
+    /* opacity: 0; */
+}
+nav ul {
+    position: absolute;
+    flex-direction: column;
+    height: 59vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding-top: 26px;
+    text-align: center;
+    /* margin-top: 69.9px; */
+    margin-top: -600px;
+    transition: 0.5s;
+}
+nav ul li{
+    padding: 21px 28px;
+}
+nav ul li a {
+    font-size: 22px;
+    color: rgb(109, 109, 109);
+    padding-bottom: 5px;
+}
+
+
+.section-1 .logo{
+    left: 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>> */
+/* .section-1{
+    display: flex;
+    flex-direction: column;
+} */
+/* >>>>>>>>>>>>>>>>>>>>>>> */
+.first-writings {
+    margin-top: 255px;
+}
+.first-writings h1 {
+    font-size: 35px;
+}
+.first-writings p {
+    font-size: 19px;
+    padding: 0px 2px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons a {
+    padding: 10px 10px;
+    font-size: 15px;
+    width: 150px;
+    margin: 7px ;
+
+}
+
+/* SECTION-2 */
+.section-2{
+    display: block  ;
+}
+.section-2 img{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 27px 0;
+
+}
+
+.section-2 .ft-1 {
+    /* flex-basis: 100%; */
+    display: block;
+}
+.section-2 .ft-2 {
+    /* flex-basis: 100%; */
+    display: block;
+}
+.section-2 h1 {
+    padding: 50px 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+/* SECTION-3 */
+.section-3{
+    display: block;
+    align-items: center;
+    padding: 0px;
+}
+
+.section-3 img{
+    width: 350px;
+}
+.section-3 .my-photo{
+    /* margin: auto; */
+    text-align: center;
+}
+.section-3 .about-me {
+    flex-basis: 100%;
+    padding: 50px 32px;
+}
+.pod-btn-cls{
+    margin: 0px;
+    align-items: flex-start;
+
+}
+#pod-btn {
+    background-color: rgb(96, 212, 150);
+    transition: 0.2s;
+    width: 127px;
+    margin: 0px;
+}
+
+/* SECTION-4 */
+.section-4{
+    display: flex;
+}
+.section-4 .mentor-camp h1{
+    border: none;
+    width: auto;
+}
+.mentor-camp p {
+    font-size: 19px;
+    width: auto;
+    padding: 0px 24px;
+    margin-bottom: 22px;
+}
+#learnM-btn {
+    padding: 11px 0;
+}
+
+/* .section-5 */
+
+.section-5 .border-div {
+    width: 79%;
+    height: 276px;
+}
+.total-videos .video-2 video{
+    width: 70%;
+}
+.total-videos .video-1 video{
+    width: 70%;
+}
+.section-5 .poster-bg {
+    width: 100%;
+}
+.section-5 .poster-bg, .section-5 {
+    height: 68vh;
+}
+
+/* SECTION[-6] */
+.section-6{
+    /* display: flex; */
+    display: block;
+    align-items: center;
+    padding: 0px;
+    flex-direction: column;
+}
+.section-6 .stories{
+    flex-basis: 100%;
+    flex-direction: column;
+    display: block;
+    padding: 0px 32px;
+}
+.section-6 #stories-p2 {
+    padding: 12px 32px;
+}
+.section-6 .stories-img img{
+    flex-basis: 100%;
+    width: 100% ;
+}
+.story-pt1{
+    display: flex;
+    flex-direction:column-reverse;
+}
+#learnM-btn2{
+    padding: 11px 0;
+}
+
+/* FOOTER */
+footer{
+    height: 28vh;
+}
+.social-links .bi{
+    padding: 14px;
+    font-size: 24px;
+}
+.social-links p {
+    font-size: 15px;
+    padding: 0 31px;
+}
+
+
+
+
+
+
+}
